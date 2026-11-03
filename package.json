@@ -1,0 +1,46 @@
+{
+  "name": "dsh-deskresume",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "桌面续开 (DeskResume): snapshot the Windows desktop session and restore open apps, documents, folders and window positions after a restart or power loss.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./snapshot": "./lib/snapshot.js",
+    "./collector": "./lib/collector.js",
+    "./restore": "./lib/restore.js",
+    "./documents": "./lib/documents.js",
+    "./reports": "./lib/reports.js",
+    "./environment": "./lib/environment.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "meta": {
+    "title": "桌面续开",
+    "description": "重启或断电后，一键恢复关机前打开的程序、文件和文件夹。"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "desktop",
+    "session",
+    "restore",
+    "windows",
+    "snapshot"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrogFlaying/dsh-deskresume.git"
+  }
+}
