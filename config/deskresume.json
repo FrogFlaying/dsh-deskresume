@@ -1,0 +1,26 @@
+{
+  "_comment": "DeskResume 默认配置。用户可另建 config/deskresume.local.json 覆盖任意字段（该文件不会被提交）。字段含义见 lib/config.js 的 DEFAULTS。",
+  "_retention": "历史覆盖时长 = intervalSeconds x keepSnapshots。当前 600 秒 x 144 份 = 86400 秒 = 24 小时。磁盘占用由 keepSnapshots 决定（约 44KB/份，144 份约 6.2MB），与间隔无关。",
+  "intervalSeconds": 600,
+  "keepSnapshots": 144,
+  "terminalCwd": false,
+  "extraExcludedProcesses": [],
+  "extraExcludedTitles": [],
+  "captureTimeoutMs": 60000,
+  "launchDelayMs": 700,
+  "heavyDelayMs": 2000,
+  "_placeRetry": "定位是分轮进行的：先等 settleMs，再按 placeRetryMs 逐项等待后重试。QQ/微信这类要登录的应用，窗口只有在登录完成后才出现，单次等待必然落空。第一轮就全部命中时，后面的轮次会直接跳过。",
+  "settleMs": 3000,
+  "placeRetryMs": [12000, 30000],
+  "keepReports": 50,
+  "_inferDocuments": "多标签办公软件（WPS 默认把所有文档放在同一个窗口的标签页里）只暴露当前标签，进程命令行也只留着启动时的那一个文件。开启后会用快照历史里出现过的标题 + 最近打开文件索引，反查出其余文档并在恢复时一并打开 —— 是推测，不是观测。",
+  "inferDocuments": true,
+  "inferDocumentsHours": 24,
+  "inferDocumentsLimit": 8,
+  "inferDocumentApps": [
+    "wps.exe", "et.exe", "wpp.exe", "wpspdf.exe",
+    "winword.exe", "excel.exe", "powerpnt.exe",
+    "notepad.exe", "notepad++.exe", "typora.exe",
+    "acrobat.exe", "acrord32.exe", "foxitreader.exe", "sumatrapdf.exe"
+  ]
+}

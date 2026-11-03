@@ -1,0 +1,5 @@
+# Snapshots live here at runtime.
+#
+# This file exists only so the directory is present in a fresh checkout; the
+# .gitignore above deliberately excludes everything else in here, because a
+# snapshot records the user's real window titles, command lines and paths.

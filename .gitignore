@@ -1,0 +1,16 @@
+# Snapshots contain the user's real window titles, command lines and folder
+# paths (contract names, case names, project paths). They are observations of a
+# private desktop, not source code: never commit them.
+# (data/* rather than data/ — git will not descend into an excluded directory,
+#  so an excluded `data/` would also exclude the .gitkeep re-include below.)
+data/*
+!data/.gitkeep
+
+# Local overrides of the shipped defaults in config/deskresume.json.
+config/deskresume.local.json
+
+# Runtime artefacts
+*.tmp
+*.log
+node_modules/
+.dr-state/

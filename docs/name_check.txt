@@ -1,0 +1,16 @@
+# Name availability check
+
+- **deskresume** — npm: free | GitHub: 0 repo(s): none
+- **resumedesk** — npm: free | GitHub: 21 repo(s): fafo-labs/resumedesk★5, AssiamahS/resumedesk★0, Kshashank99/ResumeDesk★0
+- **sessionkeeper** — npm: TAKEN (1.0.0) | GitHub: 16 repo(s): kyamaguchi/capybara-sessionkeeper★19, Echoxiawan/SessionKeeper★8, TecniartGalicia/sessionkeeper★0
+- **deskkeeper** — npm: free | GitHub: 2 repo(s): iamnawin/deskkeeper★0, BonghoCha/DeskKeeper★0
+- **snaprestore** — npm: free | GitHub: 8 repo(s): CRKatri/snaprestore★4, ccarvel/snaprestore★0, TheRealKeto/snaprestore★1
+- **reentry** — npm: TAKEN (0.0.0) | GitHub: 666 repo(s): FearlessTech/Reentry★23, Starwaster/DeadlyReentry★32, ferrolho/space-shuttle-reentry-trajectory★28
+- **deskreentry** — npm: free | GitHub: 0 repo(s): none
+- **secondwind** — npm: TAKEN (0.3.2) | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
+- **reawaken** — npm: free | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
+- **revive-desk** — npm: free | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
+- **sessionharbor** — npm: free | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
+- **deskrevive** — npm: free | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
+- **relaunchpad** — npm: free | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
+- **openback** — npm: free | GitHub: ERR HTTPError HTTP Error 403: rate limit exceeded
